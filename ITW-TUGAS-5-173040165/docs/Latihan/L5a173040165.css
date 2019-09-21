@@ -1,0 +1,45 @@
+body {
+	font-family: georgia;
+	font-size: 14px;
+	background-color: #999;
+}
+
+p {
+	margin: 0px 0px 10px 10px;
+}
+
+#page-wrap {
+	background-color: white;
+	width: 660px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
+
+#content {
+width: 440px;
+margin-right: 20px;
+padding-right: 20px;
+border-right: 1px solid black;
+min-height: 360px;
+border-color: #333;
+
+}
+
+#sidebar {
+	width: 180px;
+}
+
+.footer {
+	text-align: center;
+	background-color: #333;
+	font-family: verdana;
+	font-size: 11px;
+	color: white;
+	width: 680px;
+	height: 40px;
+	margin: 0px auto;
+	padding-top: 20px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>L8c173040165</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	var tanya = true;
+	while ( tanya ) {
+
+	var pilihanUser = prompt("Apakah kamu pilih gajah, orang, atau semut?");
+	var pilihanComputer = Math.random();
+
+		if (pilihanComputer >= 0 && pilihanComputer <= 0.33) {
+			pilihanComputer = "gajah";
+			if (pilihanUser == "gajah") {
+				alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi SERI");
+		    } else if (pilihanUser == "orang") {
+		    	alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi anda KALAH");
+		    } else if (pilihanUser == "semut") {
+		    	alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi anda MENANG");
+		    }
+		    else {
+		    	alert("Memasukan pilihan yang salah")
+		    }
+
+		}else if (pilihanComputer >= 0.34 && pilihanComputer <= 0.67) {
+			pilihanComputer = "orang";
+			if (pilihanUser == "gajah") {
+				alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi anda MENANG");
+		    } else if (pilihanUser == "orang") {
+		    	alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi SERI");
+		    } else if (pilihanUser == "semut") {
+		    	alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi anda KALAH");
+		    }
+		    else {
+		    	alert("Memasukan pilihan yang salah")
+		    }
+
+		}else if (pilihanComputer >= 0.68 && pilihanComputer <= 1) {
+			pilihanComputer = "semut";
+			if (pilihanUser == "gajah") {
+				alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi anda KALAH");
+		    } else if (pilihanUser == "orang") {
+		    	alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi anda MENANG");
+		    } else if (pilihanUser == "semut") {
+		    	alert("Anda memilih "+pilihanUser+" Komputer memilih "+pilihanComputer+" Jadi SERI");
+		    }
+		    else {
+		    	alert("Memasukan pilihan yang salah");
+		    }}
+
+		    tanya = confirm('lagi?');
+		}
+
+		alert('Terimaksih sudah bermain')
+
+
+
+</script>
+
+</body>
+</html>

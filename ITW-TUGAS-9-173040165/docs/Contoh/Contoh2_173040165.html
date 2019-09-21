@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Javascript</title>
+</head>
+<body>
+	<h1>Pilih Link</h1>
+	<form>
+		<select name="myLink" id="myLink" onchange="pilihLink()">
+			<option value="">Pilih Link</option>
+			<option value="http://google.com">Google.com</option>
+			<option value="http://teknik.unpas.ac.id">Website Teknik Unpas</option>
+			<option value="http://twitter.com">Twitter</option>
+			<option value="http://youtube.com">Youtube</option>
+			<option value="http://itw.if-unpas.org">ITW</option>
+
+	</form>
+
+<script>
+	
+	function pilihLink() {
+		var linkTerpilih = document.getElementById('myLink').value;
+
+		if (linkTerpilih == "") {
+			alert("Pilih link!");
+		} else {
+		document.location.href=linkTerpilih;
+	}
+}
+
+
+		    
+</script>
+	
+
+</body>
+</html>

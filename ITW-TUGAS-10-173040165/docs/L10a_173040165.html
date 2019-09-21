@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Latihan 10a</title>
+</head>
+<body>
+
+     <style>
+          #kotak {
+               width: 200px;
+               height: 200px;
+               background-color: salmon;
+               position: relative;
+               top: 20px;
+               left: 0;
+          }
+     </style>
+
+
+     <button type="button" id="tombol1">Ubah Warna</button>
+     <div id="kotak"></div>
+     
+
+<script>
+     // ambil elemen pada DOM
+     var tombol1 = document.getElementById('tombol1');
+     var kotak = document.getElementById('kotak');
+
+     // tambahkan event pada tombol1 ketika ditekan
+     tombol1.addEventListener('click', function() {
+
+          // ubah style dari kotak
+          kotak.style.backgroundColor = '#bada55';
+          kotak.style.transition = '1s';
+     });
+</script>
+
+</body>
+</html>
